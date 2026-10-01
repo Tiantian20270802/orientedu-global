@@ -1,5 +1,5 @@
 /* =====================================================================
- * OrientEdu Global · i18n.js
+ * SinoEdu Global · i18n.js
  * Language switching, translation pipeline, persistence
  * =================================================================== */
 (function () {

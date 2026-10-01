@@ -1,5 +1,5 @@
 /* =====================================================================
- * OrientEdu Global · universities.js
+ * SinoEdu Global · universities.js
  * 12 partner Chinese universities with multilingual content
  * =================================================================== */
 

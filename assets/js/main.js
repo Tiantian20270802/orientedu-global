@@ -1,5 +1,5 @@
 /* =====================================================================
- * OrientEdu Global · main.js
+ * SinoEdu Global · main.js
  * Cross-page interactions: nav, filters, forms, routing
  * =================================================================== */
 (function () {

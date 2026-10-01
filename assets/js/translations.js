@@ -1,5 +1,5 @@
 /* =====================================================================
- * OrientEdu Global · translations.js
+ * SinoEdu Global · translations.js
  * 4 locales: zh-CN, en, ru, es
  * =================================================================== */
 
@@ -7,7 +7,7 @@ window.TRANSLATIONS = {
   /* ========================= 简体中文 ========================= */
   'zh-CN': {
     meta: {
-      title: '东方留学 · OrientEdu Global — 中国大学留学申请一站式平台',
+      title: '东方留学 · SinoEdu Global — 中国大学留学申请一站式平台',
       desc: '为全球学生提供中国顶尖大学申请、奖学金、签证与语言培训服务',
       kw: '留学中国,中国大学,奖学金,清华,北大,复旦,交大'
     },
@@ -69,9 +69,9 @@ window.TRANSLATIONS = {
       title: '来自全球学生的真实评价',
       subtitle: '他们曾与你一样迷茫，如今已在中国顶尖高校就读',
       items: [
-        { name: 'Olga Petrova', country: '俄罗斯 · 莫斯科', prog: '北京大学 · 国际商务硕士', body: 'OrientEdu 帮我匹配了最合适的专业，签证过程也很顺利。从申请到入学仅用了 4 个月。' },
+        { name: 'Olga Petrova', country: '俄罗斯 · 莫斯科', prog: '北京大学 · 国际商务硕士', body: 'SinoEdu 帮我匹配了最合适的专业，签证过程也很顺利。从申请到入学仅用了 4 个月。' },
         { name: 'Carlos Mendoza', country: '墨西哥 · 墨西哥城', prog: '同济大学 · 土木工程本科', body: '中文零基础过去的我，如今已经能说流利的普通话。学校还提供了免费的中文预科课程。' },
-        { name: 'Aisha Rahman', country: '孟加拉国 · 达卡', prog: '复旦大学 · 公共卫生硕士', body: '获得了中国政府的全额奖学金，每月还有生活补贴。OrientEdu 把整个流程都安排得井井有条。' }
+        { name: 'Aisha Rahman', country: '孟加拉国 · 达卡', prog: '复旦大学 · 公共卫生硕士', body: '获得了中国政府的全额奖学金，每月还有生活补贴。SinoEdu 把整个流程都安排得井井有条。' }
       ]
     },
     scholarships: {
@@ -213,9 +213,9 @@ window.TRANSLATIONS = {
       send: '提交',
       office_h: '我们办公室',
       offices: [
-        { city: '北京总部', addr: '北京市海淀区中关村大街 27 号 905 室', phone: '+86 10 5869 8888', mail: 'beijing@orienteduglobal.com', tz: 'GMT+8 工作日 9:00-18:00' },
-        { city: '上海分公司', addr: '上海市杨浦区国权路 220 号 12 楼', phone: '+86 21 6568 6666', mail: 'shanghai@orienteduglobal.com', tz: 'GMT+8 工作日 9:00-18:00' },
-        { city: '莫斯科代表处', addr: 'Москва, ул. Тверская 16, офис 305', phone: '+7 495 909 88 99', mail: 'moscow@orienteduglobal.com', tz: 'GMT+3 工作日 10:00-19:00' }
+        { city: '北京总部', addr: '北京市海淀区中关村大街 27 号 905 室', phone: '+86 10 5869 8888', mail: 'beijing@sinoeduglobal.com', tz: 'GMT+8 工作日 9:00-18:00' },
+        { city: '上海分公司', addr: '上海市杨浦区国权路 220 号 12 楼', phone: '+86 21 6568 6666', mail: 'shanghai@sinoeduglobal.com', tz: 'GMT+8 工作日 9:00-18:00' },
+        { city: '莫斯科代表处', addr: 'Москва, ул. Тверская 16, офис 305', phone: '+7 495 909 88 99', mail: 'moscow@sinoeduglobal.com', tz: 'GMT+3 工作日 10:00-19:00' }
       ],
       faq_h: '常见问题',
       faqs: [
@@ -229,7 +229,7 @@ window.TRANSLATIONS = {
     },
     /* ========== 页脚 ========== */
     footer: {
-      desc: '东方留学（OrientEdu Global）是中国领先的来华留学一站式服务平台，依托教育部留学服务中心认证资源，为全球学生提供申请、签证、奖学金、接机等全流程服务。',
+      desc: '东方留学（SinoEdu Global）是中国领先的来华留学一站式服务平台，依托教育部留学服务中心认证资源，为全球学生提供申请、签证、奖学金、接机等全流程服务。',
       h_uni: '院校',
       h_serv: '服务',
       h_supp: '支持',
@@ -238,7 +238,7 @@ window.TRANSLATIONS = {
       supp: ['帮助中心', '联系我们', '学在指南', '校友会', '新媒体矩阵'],
       leg: ['服务协议', '隐私政策', 'Cookie 政策', '免责声明', '高校声明'],
       addr: '北京市海淀区中关村大街 27 号',
-      copy: '© 2026 OrientEdu Global · 东方留学',
+      copy: '© 2026 SinoEdu Global · 东方留学',
       icp: '京 ICP 备 15012888 号 · 京公网安备 11010802031518 号'
     }
   },
@@ -246,7 +246,7 @@ window.TRANSLATIONS = {
   /* ========================= English ========================= */
   'en': {
     meta: {
-      title: 'OrientEdu Global — Your gateway to study in China',
+      title: 'SinoEdu Global — Your gateway to study in China',
       desc: 'A one-stop platform for international students applying to top Chinese universities. Admissions, scholarships, visa, and language training.',
       kw: 'study in China,Chinese universities,Tsinghua,Peking,Fudan,scholarship'
     },
@@ -301,9 +301,9 @@ window.TRANSLATIONS = {
       title: 'What our students say',
       subtitle: 'Real stories from international students now studying in China',
       items: [
-        { name: 'Olga Petrova', country: 'Russia · Moscow', prog: 'Peking University · International Business (Master)', body: 'OrientEdu matched me with the ideal program; the visa process was smooth and the whole journey took only 4 months.' },
+        { name: 'Olga Petrova', country: 'Russia · Moscow', prog: 'Peking University · International Business (Master)', body: 'SinoEdu matched me with the ideal program; the visa process was smooth and the whole journey took only 4 months.' },
         { name: 'Carlos Mendoza', country: 'Mexico · Mexico City', prog: 'Tongji University · Civil Engineering (BEng)', body: 'I arrived with zero Chinese and now I speak fluent Mandarin — the free pre-college Chinese course made it possible.' },
-        { name: 'Aisha Rahman', country: 'Bangladesh · Dhaka', prog: 'Fudan University · Public Health (Master)', body: 'I received a full CSC scholarship with monthly stipend. OrientEdu organised every step.' }
+        { name: 'Aisha Rahman', country: 'Bangladesh · Dhaka', prog: 'Fudan University · Public Health (Master)', body: 'I received a full CSC scholarship with monthly stipend. SinoEdu organised every step.' }
       ]
     },
     scholarships: {
@@ -385,7 +385,7 @@ window.TRANSLATIONS = {
       submit: 'Create account',
       have_account: 'Already have an account?',
       signin: 'Sign in',
-      success_h: 'Welcome to OrientEdu!',
+      success_h: 'Welcome to SinoEdu!',
       success_d: 'We sent an activation email to ',
       success_next: 'Next',
       verify: 'Continue to application',
@@ -396,7 +396,7 @@ window.TRANSLATIONS = {
       err_agree: 'Please agree to the terms'
     },
     about: {
-      title: 'About OrientEdu',
+      title: 'About SinoEdu',
       subtitle: 'Our mission · vision · values',
       mission_h: 'Our mission',
       mission_d: 'Through professional, transparent and caring service, we help global youth discover the value of Chinese higher education and build bridges for academic and cultural exchange.',
@@ -440,9 +440,9 @@ window.TRANSLATIONS = {
       send: 'Submit',
       office_h: 'Our offices',
       offices: [
-        { city: 'Beijing HQ', addr: 'Suite 905, 27 Zhongguancun Street, Haidian, Beijing', phone: '+86 10 5869 8888', mail: 'beijing@orienteduglobal.com', tz: 'Mon-Fri 9:00-18:00 GMT+8' },
-        { city: 'Shanghai office', addr: '12F, 220 Guoquan Road, Yangpu, Shanghai', phone: '+86 21 6568 6666', mail: 'shanghai@orienteduglobal.com', tz: 'Mon-Fri 9:00-18:00 GMT+8' },
-        { city: 'Moscow representative office', addr: 'Tverskaya 16, office 305, Moscow', phone: '+7 495 909 88 99', mail: 'moscow@orienteduglobal.com', tz: 'Mon-Fri 10:00-19:00 GMT+3' }
+        { city: 'Beijing HQ', addr: 'Suite 905, 27 Zhongguancun Street, Haidian, Beijing', phone: '+86 10 5869 8888', mail: 'beijing@sinoeduglobal.com', tz: 'Mon-Fri 9:00-18:00 GMT+8' },
+        { city: 'Shanghai office', addr: '12F, 220 Guoquan Road, Yangpu, Shanghai', phone: '+86 21 6568 6666', mail: 'shanghai@sinoeduglobal.com', tz: 'Mon-Fri 9:00-18:00 GMT+8' },
+        { city: 'Moscow representative office', addr: 'Tverskaya 16, office 305, Moscow', phone: '+7 495 909 88 99', mail: 'moscow@sinoeduglobal.com', tz: 'Mon-Fri 10:00-19:00 GMT+3' }
       ],
       faq_h: 'Frequently asked questions',
       faqs: [
@@ -455,7 +455,7 @@ window.TRANSLATIONS = {
       success_d: 'Thank you — an advisor will reach out within 24 hours.'
     },
     footer: {
-      desc: 'OrientEdu Global is a leading study-in-China platform, certified by CSCSE, providing full-service admissions, visa, scholarship and airport pickup support to international students worldwide.',
+      desc: 'SinoEdu Global is a leading study-in-China platform, certified by CSCSE, providing full-service admissions, visa, scholarship and airport pickup support to international students worldwide.',
       h_uni: 'Universities',
       h_serv: 'Services',
       h_supp: 'Support',
@@ -464,7 +464,7 @@ window.TRANSLATIONS = {
       supp: ['Help centre', 'Contact us', 'Study guide', 'Alumni network', 'Social media'],
       leg: ['Terms of service', 'Privacy policy', 'Cookie policy', 'Disclaimer', 'University notices'],
       addr: '27 Zhongguancun Street, Haidian, Beijing',
-      copy: '© 2026 OrientEdu Global',
+      copy: '© 2026 SinoEdu Global',
       icp: 'ICP 15012888 · Beijing PSB 11010802031518'
     }
   },
@@ -472,7 +472,7 @@ window.TRANSLATIONS = {
   /* ========================= Русский ========================= */
   'ru': {
     meta: {
-      title: 'OrientEdu Global — Ваш путь к обучению в Китае',
+      title: 'SinoEdu Global — Ваш путь к обучению в Китае',
       desc: 'Единая платформа для иностранных студентов: поступление, стипендии, виза и языковая подготовка',
       kw: 'обучение в Китае,китайские университеты,стипендия,Цинхуа,Пекинский'
     },
@@ -527,9 +527,9 @@ window.TRANSLATIONS = {
       title: 'Отзывы студентов',
       subtitle: 'Реальные истории студентов со всего мира',
       items: [
-        { name: 'Ольга Петрова', country: 'Россия · Москва', prog: 'Пекинский университет · Международный бизнес (магистр)', body: 'OrientEdu подобрал мне идеальную программу, виза прошла гладко — весь путь занял 4 месяца.' },
+        { name: 'Ольга Петрова', country: 'Россия · Москва', prog: 'Пекинский университет · Международный бизнес (магистр)', body: 'SinoEdu подобрал мне идеальную программу, виза прошла гладко — весь путь занял 4 месяца.' },
         { name: 'Карлос Мендоса', country: 'Мексика · Мехико', prog: 'Тунцзи · Гражданское строительство (бакалавр)', body: 'Приехал без знания китайского — теперь говорю свободно благодаря бесплатному подготовительному курсу.' },
-        { name: 'Аиша Рахман', country: 'Бангладеш · Дакка', prog: 'Фуданьский университет · Общественное здоровье (магистр)', body: 'Получила полную стипендию CSC с ежемесячной стипендией. OrientEdu организовал всё.' }
+        { name: 'Аиша Рахман', country: 'Бангладеш · Дакка', prog: 'Фуданьский университет · Общественное здоровье (магистр)', body: 'Получила полную стипендию CSC с ежемесячной стипендией. SinoEdu организовал всё.' }
       ]
     },
     scholarships: {
@@ -611,7 +611,7 @@ window.TRANSLATIONS = {
       submit: 'Создать аккаунт',
       have_account: 'Уже есть аккаунт?',
       signin: 'Войти',
-      success_h: 'Добро пожаловать в OrientEdu!',
+      success_h: 'Добро пожаловать в SinoEdu!',
       success_d: 'Мы отправили письмо активации на ',
       success_next: 'Далее',
       verify: 'Перейти к заявке',
@@ -666,9 +666,9 @@ window.TRANSLATIONS = {
       send: 'Отправить',
       office_h: 'Наши офисы',
       offices: [
-        { city: 'Штаб-квартира в Пекине', addr: 'Пекин, Хайдянь, Чжунгуаньцунь-стрит 27, офис 905', phone: '+86 10 5869 8888', mail: 'beijing@orienteduglobal.com', tz: 'Пн-Пт 9:00-18:00 GMT+8' },
-        { city: 'Офис в Шанхае', addr: 'Шанхай, Янпу, Гоцюань-роуд 220, 12 этаж', phone: '+86 21 6568 6666', mail: 'shanghai@orienteduglobal.com', tz: 'Пн-Пт 9:00-18:00 GMT+8' },
-        { city: 'Представительство в Москве', addr: 'Москва, ул. Тверская 16, офис 305', phone: '+7 495 909 88 99', mail: 'moscow@orienteduglobal.com', tz: 'Пн-Пт 10:00-19:00 GMT+3' }
+        { city: 'Штаб-квартира в Пекине', addr: 'Пекин, Хайдянь, Чжунгуаньцунь-стрит 27, офис 905', phone: '+86 10 5869 8888', mail: 'beijing@sinoeduglobal.com', tz: 'Пн-Пт 9:00-18:00 GMT+8' },
+        { city: 'Офис в Шанхае', addr: 'Шанхай, Янпу, Гоцюань-роуд 220, 12 этаж', phone: '+86 21 6568 6666', mail: 'shanghai@sinoeduglobal.com', tz: 'Пн-Пт 9:00-18:00 GMT+8' },
+        { city: 'Представительство в Москве', addr: 'Москва, ул. Тверская 16, офис 305', phone: '+7 495 909 88 99', mail: 'moscow@sinoeduglobal.com', tz: 'Пн-Пт 10:00-19:00 GMT+3' }
       ],
       faq_h: 'Частые вопросы',
       faqs: [
@@ -681,7 +681,7 @@ window.TRANSLATIONS = {
       success_d: 'Куратор свяжется с вами в течение 24 часов.'
     },
     footer: {
-      desc: 'OrientEdu Global — ведущая платформа для поступления в Китай, аккредитованная CSCSE: полное сопровождение для иностранных студентов по всему миру.',
+      desc: 'SinoEdu Global — ведущая платформа для поступления в Китай, аккредитованная CSCSE: полное сопровождение для иностранных студентов по всему миру.',
       h_uni: 'Университеты',
       h_serv: 'Сервисы',
       h_supp: 'Поддержка',
@@ -690,7 +690,7 @@ window.TRANSLATIONS = {
       supp: ['Помощь', 'Контакты', 'Гайд студента', 'Сеть выпускников', 'Соцсети'],
       leg: ['Условия', 'Конфиденциальность', 'Cookie', 'Дисклеймер', 'Уведомления вузов'],
       addr: 'Пекин, Хайдянь, Чжунгуаньцунь 27',
-      copy: '© 2026 OrientEdu Global',
+      copy: '© 2026 SinoEdu Global',
       icp: 'ICP 15012888 · PSB 11010802031518'
     }
   },
@@ -698,7 +698,7 @@ window.TRANSLATIONS = {
   /* ========================= Español ========================= */
   'es': {
     meta: {
-      title: 'OrientEdu Global — Tu puerta al estudio en China',
+      title: 'SinoEdu Global — Tu puerta al estudio en China',
       desc: 'Plataforma integral para estudiantes internacionales: admisión, becas, visado y formación lingüística',
       kw: 'estudiar en China,universidades chinas,beca,Tsinghua,Pekín'
     },
@@ -753,9 +753,9 @@ window.TRANSLATIONS = {
       title: 'Lo que dicen nuestros estudiantes',
       subtitle: 'Historias reales de jóvenes que ya estudian en China',
       items: [
-        { name: 'Olga Petrova', country: 'Rusia · Moscú', prog: 'Universidad de Pekín · Negocios Internacionales (Máster)', body: 'OrientEdu me ayudó a elegir el programa perfecto; la visa fue sencilla y todo el proceso tomó solo 4 meses.' },
+        { name: 'Olga Petrova', country: 'Rusia · Moscú', prog: 'Universidad de Pekín · Negocios Internacionales (Máster)', body: 'SinoEdu me ayudó a elegir el programa perfecto; la visa fue sencilla y todo el proceso tomó solo 4 meses.' },
         { name: 'Carlos Mendoza', country: 'México · CDMX', prog: 'Universidad Tongji · Ingeniería Civil (Grado)', body: 'Llegué sin saber chino y ahora hablo mandarín con fluidez gracias al curso preparatorio gratuito.' },
-        { name: 'Aisha Rahman', country: 'Bangladés · Daca', prog: 'Universidad de Fudan · Salud Pública (Máster)', body: 'Recibí la beca CSC completa con estipendio mensual. OrientEdu organizó todo el proceso.' }
+        { name: 'Aisha Rahman', country: 'Bangladés · Daca', prog: 'Universidad de Fudan · Salud Pública (Máster)', body: 'Recibí la beca CSC completa con estipendio mensual. SinoEdu organizó todo el proceso.' }
       ]
     },
     scholarships: {
@@ -837,7 +837,7 @@ window.TRANSLATIONS = {
       submit: 'Crear cuenta',
       have_account: '¿Ya tienes cuenta?',
       signin: 'Entrar',
-      success_h: '¡Bienvenido a OrientEdu!',
+      success_h: '¡Bienvenido a SinoEdu!',
       success_d: 'Hemos enviado un correo de activación a ',
       success_next: 'Siguiente',
       verify: 'Continuar a la solicitud',
@@ -848,7 +848,7 @@ window.TRANSLATIONS = {
       err_agree: 'Acepta los términos'
     },
     about: {
-      title: 'Sobre OrientEdu',
+      title: 'Sobre SinoEdu',
       subtitle: 'Misión · Visión · Valores',
       mission_h: 'Nuestra misión',
       mission_d: 'A través de un servicio profesional y transparente, ayudamos a jóvenes de todo el mundo a descubrir el valor de la educación superior china y a tender puentes para el intercambio académico y cultural.',
@@ -892,9 +892,9 @@ window.TRANSLATIONS = {
       send: 'Enviar',
       office_h: 'Nuestras oficinas',
       offices: [
-        { city: 'Sede en Pekín', addr: 'Suite 905, 27 Zhongguancun Street, Haidian, Pekín', phone: '+86 10 5869 8888', mail: 'beijing@orienteduglobal.com', tz: 'Lun-Vie 9:00-18:00 GMT+8' },
-        { city: 'Oficina en Shanghái', addr: 'Piso 12, 220 Guoquan Road, Yangpu, Shanghái', phone: '+86 21 6568 6666', mail: 'shanghai@orienteduglobal.com', tz: 'Lun-Vie 9:00-18:00 GMT+8' },
-        { city: 'Oficina en Moscú', addr: 'Tverskaya 16, oficina 305, Moscú', phone: '+7 495 909 88 99', mail: 'moscow@orienteduglobal.com', tz: 'Lun-Vie 10:00-19:00 GMT+3' }
+        { city: 'Sede en Pekín', addr: 'Suite 905, 27 Zhongguancun Street, Haidian, Pekín', phone: '+86 10 5869 8888', mail: 'beijing@sinoeduglobal.com', tz: 'Lun-Vie 9:00-18:00 GMT+8' },
+        { city: 'Oficina en Shanghái', addr: 'Piso 12, 220 Guoquan Road, Yangpu, Shanghái', phone: '+86 21 6568 6666', mail: 'shanghai@sinoeduglobal.com', tz: 'Lun-Vie 9:00-18:00 GMT+8' },
+        { city: 'Oficina en Moscú', addr: 'Tverskaya 16, oficina 305, Moscú', phone: '+7 495 909 88 99', mail: 'moscow@sinoeduglobal.com', tz: 'Lun-Vie 10:00-19:00 GMT+3' }
       ],
       faq_h: 'Preguntas frecuentes',
       faqs: [
@@ -907,7 +907,7 @@ window.TRANSLATIONS = {
       success_d: 'Gracias — un asesor te contactará en 24 horas.'
     },
     footer: {
-      desc: 'OrientEdu Global es una plataforma líder de estudio en China, certificada por CSCSE, que ofrece admisión, visado, becas y recogida en el aeropuerto a estudiantes internacionales.',
+      desc: 'SinoEdu Global es una plataforma líder de estudio en China, certificada por CSCSE, que ofrece admisión, visado, becas y recogida en el aeropuerto a estudiantes internacionales.',
       h_uni: 'Universidades',
       h_serv: 'Servicios',
       h_supp: 'Soporte',
@@ -916,7 +916,7 @@ window.TRANSLATIONS = {
       supp: ['Centro de ayuda', 'Contacto', 'Guía del estudiante', 'Alumni', 'Redes sociales'],
       leg: ['Términos', 'Privacidad', 'Cookies', 'Disclaimer', 'Avisos universidad'],
       addr: '27 Zhongguancun Street, Haidian, Pekín',
-      copy: '© 2026 OrientEdu Global',
+      copy: '© 2026 SinoEdu Global',
       icp: 'ICP 15012888 · PSB 11010802031518'
     }
   }
