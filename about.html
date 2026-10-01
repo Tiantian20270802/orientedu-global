@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="about.title">About — OrientEdu Global</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="oeg-nav">
+    <div class="oeg-nav__inner">
+      <a href="index.html" class="oeg-nav__logo">
+        <span class="oeg-nav__logo-mark">O</span>
+        <span class="oeg-nav__logo-text">OrientEdu<small>东方留学 · GLOBAL</small></span>
+      </a>
+      <div class="oeg-nav__links">
+        <a href="index.html" class="oeg-nav__link" data-i18n="nav.home">Home</a>
+        <a href="universities.html" class="oeg-nav__link" data-i18n="nav.unis">Universities</a>
+        <a href="universities.html#programs" class="oeg-nav__link" data-i18n="nav.programs">Programs</a>
+        <a href="index.html#how" class="oeg-nav__link" data-i18n="nav.how">How to Apply</a>
+        <a href="index.html#scholarships" class="oeg-nav__link" data-i18n="nav.scholarships">Scholarships</a>
+        <a href="about.html" class="oeg-nav__link is-current" data-i18n="nav.about">About</a>
+        <a href="contact.html" class="oeg-nav__link" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="oeg-nav__actions">
+        <div class="lang-switch">
+          <a class="lang-switch__btn" href="#" data-lang-switch="zh-CN">中文</a>
+          <a class="lang-switch__btn is-active" href="#" data-lang-switch="en">EN</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="ru">RU</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="es">ES</a>
+        </div>
+        <a class="btn btn--ghost" href="register.html" data-i18n="nav.signin">Sign in</a>
+        <a class="btn btn--primary" href="register.html" data-i18n="nav.apply">Apply now</a>
+        <button class="oeg-nav__burger" data-burger aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Home</a> <span>›</span>
+        <strong data-i18n="nav.about">About</strong>
+      </div>
+      <h1 class="page-hero__h" data-i18n="about.title">About OrientEdu</h1>
+      <p class="page-hero__sub" data-i18n="about.subtitle">Subtitle</p>
+    </div>
+  </header>
+
+  <!-- Mission / Vision / Values -->
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-block">
+          <h2 data-i18n="about.mission_h">Mission</h2>
+          <p data-i18n="about.mission_d">Mission description</p>
+        </div>
+        <div class="about-block">
+          <h2 data-i18n="about.vision_h">Vision</h2>
+          <p data-i18n="about.vision_d">Vision description</p>
+        </div>
+      </div>
+
+      <div style="margin-top:64px">
+        <h2 class="section-head__h" style="margin-bottom:24px" data-i18n="about.values_h">Values</h2>
+        <div class="values-grid" id="values-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-head__eyebrow">LEADERSHIP</span>
+        <h2 class="section-head__h" data-i18n="about.team_h">Team</h2>
+      </div>
+      <div class="team-grid" id="team-grid"></div>
+    </div>
+  </section>
+
+  <!-- Milestones -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-head__eyebrow">JOURNEY</span>
+        <h2 class="section-head__h" data-i18n="about.milestones_h">Milestones</h2>
+      </div>
+      <ul class="timeline" id="milestones-list"></ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta-strip">
+        <h2 class="cta-strip__h" data-i18n="cta.title">Ready to start?</h2>
+        <p class="cta-strip__sub" data-i18n="cta.subtitle">Sub</p>
+        <a class="btn btn--gold btn--lg" href="register.html" data-i18n="cta.button">Register</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="oeg-footer">
+    <div class="container">
+      <div class="oeg-footer__grid">
+        <div class="oeg-footer__brand">
+          <h3>OrientEdu Global</h3>
+          <p data-i18n="footer.desc">Desc</p>
+          <address data-i18n="footer.addr">Address</address>
+        </div>
+        <div><h4 data-i18n="footer.h_uni">Universities</h4>
+          <ul>
+            <li><a href="universities.html" data-i18n="nav.unis">Universities</a></li>
+          </ul>
+        </div>
+        <div><h4 data-i18n="footer.h_serv">Services</h4><ul id="footer-services"></ul></div>
+        <div><h4 data-i18n="footer.h_supp">Support</h4><ul id="footer-support"></ul></div>
+        <div><h4 data-i18n="footer.h_legal">Legal</h4><ul id="footer-legal"></ul></div>
+      </div>
+      <div class="oeg-footer__legal">
+        <span data-i18n="footer.copy">©</span>
+        <span data-i18n="footer.icp">ICP</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/universities.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function renderAboutDynamic() {
+      var t = window.i18n.t;
+
+      var vItems = t('about.values') || [];
+      var vEl = document.getElementById('values-grid');
+      if (vEl) {
+        var h = '';
+        vItems.forEach(function (it) {
+          h += '<div class="value-card"><strong>' + it.t + '</strong><p>' + it.d + '</p></div>';
+        });
+        vEl.innerHTML = h;
+      }
+
+      var team = t('about.team') || [];
+      var tEl = document.getElementById('team-grid');
+      if (tEl) {
+        var h = '';
+        team.forEach(function (it) {
+          var initials = it.name.split(' ').map(function (s) { return s[0]; }).join('').slice(0, 2);
+          h += '<div class="team"><div class="team__avatar">' + initials + '</div>' +
+               '<div class="team__name">' + it.name + '</div>' +
+               '<div class="team__role">' + it.role + '</div>' +
+               '<div class="team__intro">' + it.intro + '</div></div>';
+        });
+        tEl.innerHTML = h;
+      }
+
+      var ms = t('about.milestones') || [];
+      var mEl = document.getElementById('milestones-list');
+      if (mEl) {
+        var h = '';
+        ms.forEach(function (it) {
+          h += '<li><strong>' + it.y + '</strong>' + it.t + '</li>';
+        });
+        mEl.innerHTML = h;
+      }
+
+      function fillFooter(id, key) {
+        var arr = window.i18n.t(key) || [];
+        var el = document.getElementById(id); if (!el) return;
+        el.innerHTML = '';
+        arr.forEach(function (item) {
+          var li = document.createElement('li');
+          li.innerHTML = '<a href="#">' + item + '</a>';
+          el.appendChild(li);
+        });
+      }
+      fillFooter('footer-services', 'footer.serv');
+      fillFooter('footer-support',  'footer.supp');
+      fillFooter('footer-legal',    'footer.leg');
+    }
+    window.i18n.onLocaleChange(renderAboutDynamic);
+    window.addEventListener('load', renderAboutDynamic);
+  </script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply — OrientEdu Global</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="oeg-nav">
+    <div class="oeg-nav__inner">
+      <a href="index.html" class="oeg-nav__logo">
+        <span class="oeg-nav__logo-mark">O</span>
+        <span class="oeg-nav__logo-text">OrientEdu<small>东方留学 · GLOBAL</small></span>
+      </a>
+      <div class="oeg-nav__links">
+        <a href="index.html" class="oeg-nav__link" data-i18n="nav.home">Home</a>
+        <a href="universities.html" class="oeg-nav__link" data-i18n="nav.unis">Universities</a>
+        <a href="universities.html#programs" class="oeg-nav__link" data-i18n="nav.programs">Programs</a>
+        <a href="index.html#how" class="oeg-nav__link" data-i18n="nav.how">How to Apply</a>
+        <a href="index.html#scholarships" class="oeg-nav__link" data-i18n="nav.scholarships">Scholarships</a>
+        <a href="about.html" class="oeg-nav__link" data-i18n="nav.about">About</a>
+        <a href="contact.html" class="oeg-nav__link" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="oeg-nav__actions">
+        <div class="lang-switch">
+          <a class="lang-switch__btn" href="#" data-lang-switch="zh-CN">中文</a>
+          <a class="lang-switch__btn is-active" href="#" data-lang-switch="en">EN</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="ru">RU</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="es">ES</a>
+        </div>
+        <a class="btn btn--ghost" href="register.html" data-i18n="nav.signin">Sign in</a>
+        <a class="btn btn--primary" href="apply.html" data-i18n="nav.apply">Apply now</a>
+        <button class="oeg-nav__burger" data-burger aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Home</a> <span>›</span>
+        <strong data-i18n="nav.apply">Apply now</strong>
+      </div>
+      <h1 class="page-hero__h" data-i18n="detail.apply_intro">Submit the form and an advisor will reach out</h1>
+      <p class="page-hero__sub">An advisor will reach out within 24 hours.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <form class="form" id="apply-form">
+        <h3 style="margin-bottom:20px;color:var(--navy)">Application details</h3>
+        <div class="form__row">
+          <div class="field">
+            <label>University</label>
+            <select data-field="a_uni"></select>
+          </div>
+          <div class="field">
+            <label>Program</label>
+            <select data-field="a_prog"></select>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label>Teaching language</label>
+            <select data-field="a_lang">
+              <option value="en">English</option>
+              <option value="zh">Chinese</option>
+              <option value="both">Bilingual</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Intake</label>
+            <select data-field="a_intake">
+              <option value="2026-fall">Fall 2026</option>
+              <option value="2027-spring">Spring 2027</option>
+              <option value="2027-fall">Fall 2027</option>
+              <option value="und">Undecided</option>
+            </select>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label>Full name</label>
+            <input data-field="a_name" type="text" required />
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input data-field="a_email" type="email" required />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label>Phone (with country code)</label>
+            <input data-field="a_phone" type="tel" required />
+          </div>
+          <div class="field">
+            <label>Nationality / country</label>
+            <input data-field="a_country" type="text" required />
+          </div>
+        </div>
+        <div class="form__row form__row--single">
+          <div class="field">
+            <label>Brief self-introduction (motivation, language skills, achievements)</label>
+            <textarea data-field="a_bio" placeholder="100-300 words"></textarea>
+          </div>
+        </div>
+        <div class="field field--agree" style="margin-top:8px">
+          <input type="checkbox" id="a-agree" checked />
+          <label for="a-agree">I have read and agree to the terms.</label>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg" style="width:100%; margin-top:24px; display:block">Submit application</button>
+      </form>
+
+      <div class="success-card" id="apply-success">
+        <div class="success-card__ico">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h2 class="success-card__h">Application submitted</h2>
+        <p class="success-card__d">An advisor will contact you within 24 hours to discuss your file.</p>
+        <a class="btn btn--primary" href="index.html">Back to home</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="oeg-footer">
+    <div class="container">
+      <div class="oeg-footer__grid">
+        <div class="oeg-footer__brand">
+          <h3>OrientEdu Global</h3>
+          <p data-i18n="footer.desc">Desc</p>
+          <address data-i18n="footer.addr">Address</address>
+        </div>
+        <div><h4 data-i18n="footer.h_uni">Universities</h4>
+          <ul>
+            <li><a href="universities.html" data-i18n="nav.unis">Universities</a></li>
+          </ul>
+        </div>
+        <div><h4 data-i18n="footer.h_serv">Services</h4><ul id="footer-services"></ul></div>
+        <div><h4 data-i18n="footer.h_supp">Support</h4><ul id="footer-support"></ul></div>
+        <div><h4 data-i18n="footer.h_legal">Legal</h4><ul id="footer-legal"></ul></div>
+      </div>
+      <div class="oeg-footer__legal">
+        <span data-i18n="footer.copy">©</span>
+        <span data-i18n="footer.icp">ICP</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/universities.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function fillFooter(id, key) {
+      var arr = window.i18n.t(key) || [];
+      var el = document.getElementById(id); if (!el) return;
+      el.innerHTML = '';
+      arr.forEach(function (item) {
+        var li = document.createElement('li');
+        li.innerHTML = '<a href="#">' + item + '</a>';
+        el.appendChild(li);
+      });
+    }
+    function updateFooters() {
+      fillFooter('footer-services', 'footer.serv');
+      fillFooter('footer-support',  'footer.supp');
+      fillFooter('footer-legal',    'footer.leg');
+    }
+    window.i18n.onLocaleChange(updateFooters);
+    window.addEventListener('load', updateFooters);
+  </script>
+</body>
+</html>

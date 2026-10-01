@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">Register — OrientEdu Global</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="oeg-nav">
+    <div class="oeg-nav__inner">
+      <a href="index.html" class="oeg-nav__logo">
+        <span class="oeg-nav__logo-mark">O</span>
+        <span class="oeg-nav__logo-text">OrientEdu<small>东方留学 · GLOBAL</small></span>
+      </a>
+      <div class="oeg-nav__links">
+        <a href="index.html" class="oeg-nav__link" data-i18n="nav.home">Home</a>
+        <a href="universities.html" class="oeg-nav__link" data-i18n="nav.unis">Universities</a>
+        <a href="universities.html#programs" class="oeg-nav__link" data-i18n="nav.programs">Programs</a>
+        <a href="index.html#how" class="oeg-nav__link" data-i18n="nav.how">How to Apply</a>
+        <a href="index.html#scholarships" class="oeg-nav__link" data-i18n="nav.scholarships">Scholarships</a>
+        <a href="about.html" class="oeg-nav__link" data-i18n="nav.about">About</a>
+        <a href="contact.html" class="oeg-nav__link" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="oeg-nav__actions">
+        <div class="lang-switch">
+          <a class="lang-switch__btn" href="#" data-lang-switch="zh-CN">中文</a>
+          <a class="lang-switch__btn is-active" href="#" data-lang-switch="en">EN</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="ru">RU</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="es">ES</a>
+        </div>
+        <a class="btn btn--ghost" href="register.html" data-i18n="nav.signin">Sign in</a>
+        <a class="btn btn--primary" href="register.html" data-i18n="nav.apply">Apply now</a>
+        <button class="oeg-nav__burger" data-burger aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-i18n="nav.home">Home</a> <span>›</span>
+        <strong data-i18n="nav.register">Register</strong>
+      </div>
+      <h1 class="page-hero__h" data-i18n="register.title">Register</h1>
+      <p class="page-hero__sub" data-i18n="register.subtitle">Subtitle</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <form class="form" id="register-form">
+        <div class="form__steps">
+          <div class="form__step is-active">
+            <strong>1</strong>
+            <span data-i18n="register.step1">Account</span>
+          </div>
+          <div class="form__step">
+            <strong>2</strong>
+            <span data-i18n="register.step2">Education</span>
+          </div>
+          <div class="form__step">
+            <strong>3</strong>
+            <span data-i18n="register.step3">Target program</span>
+          </div>
+        </div>
+
+        <!-- Step 1 — Account -->
+        <h3 style="margin-bottom:20px;color:var(--navy)" data-i18n="register.step1">Account</h3>
+        <div class="form__row">
+          <div class="field">
+            <label data-i18n="register.f_name">Full name</label>
+            <input data-field="f_name" type="text" required />
+          </div>
+          <div class="field">
+            <label data-i18n="register.f_email">Email <em>*</em></label>
+            <input data-field="f_email" type="email" required />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label data-i18n="register.f_phone">Phone</label>
+            <input data-field="f_phone" type="tel" placeholder="+86 138 0000 0000" required />
+          </div>
+          <div class="field">
+            <label data-i18n="register.f_country">Country</label>
+            <input data-field="f_country" type="text" placeholder="Russia" required />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label data-i18n="register.f_password">Password</label>
+            <input data-field="f_password" type="password" required />
+          </div>
+          <div class="field">
+            <label data-i18n="register.f_confirm">Confirm password</label>
+            <input data-field="f_confirm" type="password" required />
+          </div>
+        </div>
+
+        <hr style="border:0; border-top:1px solid var(--line); margin:32px 0" />
+
+        <!-- Step 2 — Education -->
+        <h3 style="margin-bottom:20px;color:var(--navy)" data-i18n="register.step2">Education</h3>
+        <div class="form__row">
+          <div class="field">
+            <label data-i18n="register.f_level">Current education level</label>
+            <select data-field="f_level">
+              <option value="hs" data-i18n="register.levels.hs">High school</option>
+              <option value="ug" data-i18n="register.levels.ug">Bachelor in progress</option>
+              <option value="ub" data-i18n="register.levels.ub">Bachelor completed</option>
+              <option value="ma" data-i18n="register.levels.ma">Master in progress</option>
+              <option value="mb" data-i18n="register.levels.mb">Master completed</option>
+              <option value="oth" data-i18n="register.levels.oth">Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label data-i18n="register.f_gradyear">Graduation year</label>
+            <input data-field="f_gradyear" type="number" placeholder="2024" />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label data-i18n="register.f_school">School / university</label>
+            <input data-field="f_school" type="text" />
+          </div>
+          <div class="field">
+            <label data-i18n="register.f_major">Current major</label>
+            <input data-field="f_major" type="text" />
+          </div>
+        </div>
+
+        <hr style="border:0; border-top:1px solid var(--line); margin:32px 0" />
+
+        <!-- Step 3 — Target -->
+        <h3 style="margin-bottom:20px;color:var(--navy)" data-i18n="register.step3">Target program</h3>
+        <div class="form__row">
+          <div class="field">
+            <label data-i18n="register.f_target_uni">Target university</label>
+            <select data-field="f_target_uni">
+              <option value="" data-i18n="register.err_required">Choose a university</option>
+            </select>
+          </div>
+          <div class="field">
+            <label data-i18n="register.f_target_prog">Target program</label>
+            <input data-field="f_target_prog" type="text" placeholder="Computer Science" />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label data-i18n="register.f_target_lang">Teaching language</label>
+            <select data-field="f_target_lang">
+              <option value="en"  data-i18n="register.langs.en">English</option>
+              <option value="zh"  data-i18n="register.langs.zh">Chinese</option>
+              <option value="both" data-i18n="register.langs.both">Bilingual</option>
+            </select>
+          </div>
+          <div class="field">
+            <label data-i18n="register.f_intake">Intake</label>
+            <select data-field="f_intake">
+              <option value="2026-fall"   data-i18n="register.intakes.2026-fall">Fall 2026</option>
+              <option value="2027-spring" data-i18n="register.intakes.2027-spring">Spring 2027</option>
+              <option value="2027-fall"   data-i18n="register.intakes.2027-fall">Fall 2027</option>
+              <option value="und"         data-i18n="register.intakes.und">Undecided</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field field--agree" style="margin-top:24px">
+          <input data-field="agree" type="checkbox" id="agree" />
+          <label for="agree" data-i18n="register.agree">I agree to the terms</label>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--lg" style="width:100%; margin-top:24px; display:block" data-i18n="register.submit">Create account</button>
+
+        <p style="text-align:center; margin-top:16px; color:var(--ink-3); font-size:14px">
+          <span data-i18n="register.have_account">Already have an account?</span>
+          <a href="#" style="color:var(--maroon); font-weight:600" data-i18n="register.signin">Sign in</a>
+        </p>
+      </form>
+
+      <div class="success-card" id="register-success">
+        <div class="success-card__ico">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h2 class="success-card__h" data-i18n="register.success_h">Welcome!</h2>
+        <p class="success-card__d" data-i18n="register.success_d">We sent an activation email to</p>
+        <strong style="display:block; margin-bottom:24px" data-r="success_email"></strong>
+        <a class="btn btn--primary" href="apply.html" data-i18n="register.verify">Continue to application</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="oeg-footer">
+    <div class="container">
+      <div class="oeg-footer__grid">
+        <div class="oeg-footer__brand">
+          <h3>OrientEdu Global</h3>
+          <p data-i18n="footer.desc">Desc</p>
+          <address data-i18n="footer.addr">Address</address>
+        </div>
+        <div><h4 data-i18n="footer.h_uni">Universities</h4>
+          <ul>
+            <li><a href="universities.html" data-i18n="nav.unis">Universities</a></li>
+          </ul>
+        </div>
+        <div><h4 data-i18n="footer.h_serv">Services</h4><ul id="footer-services"></ul></div>
+        <div><h4 data-i18n="footer.h_supp">Support</h4><ul id="footer-support"></ul></div>
+        <div><h4 data-i18n="footer.h_legal">Legal</h4><ul id="footer-legal"></ul></div>
+      </div>
+      <div class="oeg-footer__legal">
+        <span data-i18n="footer.copy">©</span>
+        <span data-i18n="footer.icp">ICP</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/universities.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function fillFooter(id, key) {
+      var arr = window.i18n.t(key) || [];
+      var el = document.getElementById(id); if (!el) return;
+      el.innerHTML = '';
+      arr.forEach(function (item) {
+        var li = document.createElement('li');
+        li.innerHTML = '<a href="#">' + item + '</a>';
+        el.appendChild(li);
+      });
+    }
+    function updateFooters() {
+      fillFooter('footer-services', 'footer.serv');
+      fillFooter('footer-support',  'footer.supp');
+      fillFooter('footer-legal',    'footer.leg');
+    }
+    window.i18n.onLocaleChange(updateFooters);
+    window.addEventListener('load', updateFooters);
+  </script>
+</body>
+</html>

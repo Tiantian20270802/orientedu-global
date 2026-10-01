@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">University — OrientEdu Global</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="oeg-nav">
+    <div class="oeg-nav__inner">
+      <a href="index.html" class="oeg-nav__logo">
+        <span class="oeg-nav__logo-mark">O</span>
+        <span class="oeg-nav__logo-text">OrientEdu<small>东方留学 · GLOBAL</small></span>
+      </a>
+      <div class="oeg-nav__links">
+        <a href="index.html" class="oeg-nav__link" data-i18n="nav.home">Home</a>
+        <a href="universities.html" class="oeg-nav__link is-current" data-i18n="nav.unis">Universities</a>
+        <a href="universities.html#programs" class="oeg-nav__link" data-i18n="nav.programs">Programs</a>
+        <a href="index.html#how" class="oeg-nav__link" data-i18n="nav.how">How to Apply</a>
+        <a href="index.html#scholarships" class="oeg-nav__link" data-i18n="nav.scholarships">Scholarships</a>
+        <a href="about.html" class="oeg-nav__link" data-i18n="nav.about">About</a>
+        <a href="contact.html" class="oeg-nav__link" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="oeg-nav__actions">
+        <div class="lang-switch">
+          <a class="lang-switch__btn" href="#" data-lang-switch="zh-CN">中文</a>
+          <a class="lang-switch__btn is-active" href="#" data-lang-switch="en">EN</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="ru">RU</a>
+          <a class="lang-switch__btn" href="#" data-lang-switch="es">ES</a>
+        </div>
+        <a class="btn btn--ghost" href="register.html" data-i18n="nav.signin">Sign in</a>
+        <a class="btn btn--primary" href="register.html" data-i18n="nav.apply">Apply now</a>
+        <button class="oeg-nav__burger" data-burger aria-label="Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="uni-detail">
+    <header class="uni-hero">
+      <div class="uni-hero__bg" data-r="hero"></div>
+      <div class="container uni-hero__inner">
+        <div class="breadcrumb">
+          <a href="index.html" data-i18n="nav.home">Home</a> <span>›</span>
+          <a href="universities.html" data-i18n="nav.unis">Universities</a> <span>›</span>
+          <strong data-r="name"></strong>
+        </div>
+        <div class="uni-hero__top">
+          <span class="uni-hero__qs" data-r="qs"></span>
+          <span>📍 <span data-r="city"></span></span>
+        </div>
+        <h1 class="uni-hero__title" data-r="name"></h1>
+        <p class="uni-hero__sub" data-r="sub"></p>
+        <div class="uni-hero__stats">
+          <div class="uni-hero__stat">
+            <strong data-r="qs2"></strong>
+            <span data-i18n="detail.ranking">QS Ranking</span>
+          </div>
+          <div class="uni-hero__stat">
+            <strong data-r="founded"></strong>
+            <span data-i18n="detail.founded">Founded</span>
+          </div>
+          <div class="uni-hero__stat">
+            <strong data-r="students"></strong>
+            <span data-i18n="detail.students">Students</span>
+          </div>
+          <div class="uni-hero__stat">
+            <strong data-r="intl"></strong>
+            <span data-i18n="detail.intl">International students</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="uni-content">
+        <div class="uni-content__main">
+          <div>
+            <h2 data-i18n="detail.overview_h">University overview</h2>
+            <p data-r="overview"></p>
+          </div>
+          <div>
+            <h2>Why choose <span data-r="name"></span></h2>
+            <ul class="uni-list" data-r="why"></ul>
+          </div>
+          <div>
+            <h2 data-i18n="detail.progs_h">Top programs</h2>
+            <ul class="prog-list" data-r="progs"></ul>
+          </div>
+          <div>
+            <h2 data-i18n="detail.admission_h">Admission requirements</h2>
+            <ul class="uni-list" data-r="req"></ul>
+          </div>
+        </div>
+        <aside>
+          <div class="side-card">
+            <h3 data-r="name"></h3>
+            <p data-r="apply-intro"></p>
+            <a class="btn btn--primary" id="sidebar-apply" href="apply.html">
+              <span data-i18n="detail.apply_h">Apply now</span>
+            </a>
+            <a class="btn btn--ghost" href="universities.html">
+              <span data-i18n="detail.back">Back to universities</span>
+            </a>
+            <hr style="margin: 24px 0; border: 0; border-top: 1px solid var(--line);" />
+            <p style="font-size: 12px; color: var(--ink-3); margin-bottom: 6px;" data-i18n="detail.contact">Contact</p>
+            <div data-r="contact"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-strip">
+          <h2 class="cta-strip__h" data-i18n="cta.title">Ready to begin your journey?</h2>
+          <p class="cta-strip__sub" data-i18n="cta.subtitle"></p>
+          <a class="btn btn--gold btn--lg" href="register.html" data-i18n="cta.button">Register</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="oeg-footer">
+    <div class="container">
+      <div class="oeg-footer__grid">
+        <div class="oeg-footer__brand">
+          <h3>OrientEdu Global</h3>
+          <p data-i18n="footer.desc">Desc</p>
+          <address data-i18n="footer.addr">Address</address>
+        </div>
+        <div>
+          <h4 data-i18n="footer.h_uni">Universities</h4>
+          <ul>
+            <li><a href="universities.html" data-i18n="nav.unis">Universities</a></li>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.h_serv">Services</h4>
+          <ul id="footer-services"></ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.h_supp">Support</h4>
+          <ul id="footer-support"></ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.h_legal">Legal</h4>
+          <ul id="footer-legal"></ul>
+        </div>
+      </div>
+      <div class="oeg-footer__legal">
+        <span data-i18n="footer.copy">© 2026 OrientEdu Global</span>
+        <span data-i18n="footer.icp">ICP</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/universities.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function fillFooterList(id, key) {
+      var arr = window.i18n.t(key) || [];
+      var el = document.getElementById(id);
+      if (!el) return;
+      el.innerHTML = '';
+      arr.forEach(function (item) {
+        var li = document.createElement('li');
+        li.innerHTML = '<a href="#">' + item + '</a>';
+        el.appendChild(li);
+      });
+    }
+    function updateFooters() {
+      ['footer-services','footer-support','footer-legal'].forEach(function (id) {
+        var key = id.replace('-', '.').replace('footer', 'footer');
+        var arr = window.i18n.t(key) || [];
+        var el = document.getElementById(id);
+        if (!el) return;
+        el.innerHTML = '';
+        arr.forEach(function (item) {
+          var li = document.createElement('li');
+          li.innerHTML = '<a href="#">' + item + '</a>';
+          el.appendChild(li);
+        });
+      });
+    }
+    window.i18n.onLocaleChange(updateFooters);
+    window.addEventListener('load', updateFooters);
+  </script>
+</body>
+</html>
